@@ -1,8 +1,6 @@
 //
 //  fitness_watchApp.swift
-//  fitness-watch
-//
-//  Created by Ali Zuberi on 2026-09-25.
+//  fitness-watch (iPhone)
 //
 
 import SwiftUI
@@ -12,6 +10,8 @@ struct fitness_watchApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                // Activate WatchConnectivity as soon as the app launches.
+                .onAppear { WatchBridge.shared.activate() }
         }
     }
 }

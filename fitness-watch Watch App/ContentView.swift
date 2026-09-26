@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  fitness-watch Watch App
 //
-//  Created by Ali Zuberi on 2026-09-25.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        // Phase 1: data collection is the whole app for now.
+        // Later we'll add a tab or menu for live workouts.
+        DataCollectionView()
     }
 }
 

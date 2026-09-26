@@ -1,0 +1,13 @@
+# Local Supabase credentials — never commit
+fitness-watch/Secrets.plist
+
+# Xcode user-specific
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Build
+DerivedData/
+build/
